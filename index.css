@@ -1,0 +1,155 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+#header {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);;
+}
+
+#header img {
+  width: 80px;
+
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(30%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  z-index: 1;
+}
+
+#place-time {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-outline-light:button {
+  text-decoration: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #708090;
+  background-color: transparent;
+  height: 30px;
+  width: auto;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.overlay h1:hover {
+  color: #97c93e !important;
+}
+
+.overlay p {
+  font-size: 17px;
+}
+
+.overlay a {
+  text-decoration: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #708090;
+  background-color: transparent;
+  height: 40px;
+  width: auto;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.overlay a:hover {
+  color: #97c93e;
+  border: 2px solid #97c93e;
+}
+
+.btn-platzi {
+  background-color: #97c93e !important;
+  border-radius: 15px;
+  color:  white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #708090;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn-platzi:hover {
+  background-color: black;
+  color: black;
+}
+
+#enviar {
+  background-color: #97c93e !important;
+  border-radius: 15px;
+  color:  white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #708090;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#enviar:hover {
+  background-color: black;
+  color: black;
+}
+
+#footer {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #97c93e !important;
+  border-radius: 15px;
+  color:  white;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #708090;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: black;
+  color: black;
+}
+
+.btn-secondary {
+  border-radius: 15px;
+  color: gray;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: transparent;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+  background-color: gray;
+  color: black;
+}
